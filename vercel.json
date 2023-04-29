@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {"source": "/spend/", "destination": "https://spendbot.vercel.app/"},
+    {"source": "/spend/:match*", "destination": "https://spendbot.vercel.app/:match*"},
+    {"source": "/", "destination": "https://botnet.vercel.app/"},
+    {"source": "/:match*", "destination": "https://botnet.vercel.app/"}
+  ]
+}
