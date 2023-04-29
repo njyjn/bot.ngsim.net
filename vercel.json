@@ -1,8 +1,8 @@
 {
   "rewrites": [
-    {"source": "/spend/", "destination": "https://spendbot.vercel.app/"},
-    {"source": "/spend/:match*", "destination": "https://spendbot.vercel.app/:match*"},
-    {"source": "/", "destination": "https://botnet.vercel.app/"},
-    {"source": "/:match*", "destination": "https://botnet.vercel.app/"}
+    {"source": "/spend/", "destination": "https://spendbot.vercel.app/spend"},
+    {"source": "/spend/:match*", "destination": "https://spendbot.vercel.app/spend/:match*"},
+    {"source": "/", "destination": "https://ngsimbot.vercel.app/"},
+    {"source": "/:match*", "destination": "https://ngsimbot.vercel.app/:match*"}
   ]
 }
