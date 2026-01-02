@@ -1,10 +1,13 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "rewrites": [
-    {"source": "/spend", "destination": "https://spendbot.vercel.app"},
-    {"source": "/spend/:match*", "destination": "https://spendbot.vercel.app/:match*"},
     {"source": "/worship", "destination": "https://worshipbot.vercel.app/worship"},
     {"source": "/worship/:match*", "destination": "https://worshipbot.vercel.app/worship/:match*"},
     {"source": "/", "destination": "https://ngsimbot.vercel.app/"},
     {"source": "/:match*", "destination": "https://ngsimbot.vercel.app/:match*"}
+  ],
+  "redirects": [
+    {"source": "/spend", "destination": "https://spendbot.vercel.app"},
+    {"source": "/spend/:match*", "destination": "https://spendbot.vercel.app/:match*"}
   ]
 }
